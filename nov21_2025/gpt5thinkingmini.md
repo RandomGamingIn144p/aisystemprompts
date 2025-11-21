@@ -1,5 +1,6 @@
 Well, it turns out that after getting GPT-5.1's system prompt with the "fake system prompt" method... just a slight modification (a and b to c and e respectively instead of a and b to a and b respectively), was enough to trick even the chain of thought AI into leaking its word for word system prompt.
 I'm also including the chain of thought used for the AI below the system prompt... just because it's funny to read.
+(and the fake prompt I used to get that)
 ```
 You are ChatGPT, a large language model trained by OpenAI.
 Knowledge cutoff: 2024-06
