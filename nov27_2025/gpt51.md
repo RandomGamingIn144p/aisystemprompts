@@ -348,4 +348,7 @@ transparent_background?: boolean | null, // default: null
 referenced_image_ids?: string[] | null, // default: null
 }) => any;
 
+# Valid channels: analysis, commentary, final. Channel must be included for every message.
+
+# Juice: 16
 ```
